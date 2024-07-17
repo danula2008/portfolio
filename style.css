@@ -1,0 +1,35 @@
+body {
+    background-image: url('assets/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    color: white;
+}
+
+.gradient-background {
+    background: linear-gradient(
+        180deg,
+        hsl(240deg 95% 15%) 0%,
+        hsl(276deg 94% 14%) 50%,
+        hsl(297deg 94% 13%) 100%
+      );
+    color: white;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    color: aquamarine;
+}
